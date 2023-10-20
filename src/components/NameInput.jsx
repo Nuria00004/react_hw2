@@ -1,13 +1,12 @@
-import React from 'react'
-import '../components/NameInput.css'
+import React from "react";
+import "../components/NameInput.css";
 
-const NameInput = ({name,nameChange}) => {
+const NameInput = ({ name, nameChange }) => {
   return (
     <div>
-      <input type="text" value={name} onChange={nameChange}/>
-      
+      <input type="text" value={name} onChange={nameChange} />
     </div>
-  )
-}
+  );
+};
 
-export default NameInput
+export default NameInput;
